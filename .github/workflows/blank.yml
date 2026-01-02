@@ -21,6 +21,6 @@ jobs:
         uses: sayyid5416/pyinstaller@v1
         with:
           python_ver: '3.12'
-          spec: 'EW_repl.py'
+          spec: 'main.py'
           upload_exe_with_name: 'Exwide'
           options: --onefile, --name "Exwide"
